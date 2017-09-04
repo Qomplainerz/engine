@@ -180,14 +180,14 @@ class Wire extends NormalizedEntity
     }
 
     /**
-     * Sets `from` (reporting user)
-     * @param  mixed $from
+     * Sets `to` (reporting user)
+     * @param  mixed $to
      * @return $this
      */
     public function setTo($to)
     {
         if (!is_object($to)) {
-            $from = Entities\Factory::build($to);
+            $to = Entities\Factory::build($to);
         }
 
         $this->to = $to;
