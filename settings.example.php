@@ -138,7 +138,7 @@ $CONFIG->set('apple', [
 $CONFIG->set('boost', [
     'network' => [
         'min' => 100,
-        'max' => 5000,
+        'max' => 5000000,
     ],
     'peer' => [
         'min' => 100,
